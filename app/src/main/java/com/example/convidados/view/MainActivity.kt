@@ -15,7 +15,7 @@ import com.example.convidados.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
-
+    //teste
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
