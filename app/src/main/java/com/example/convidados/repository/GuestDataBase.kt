@@ -13,7 +13,7 @@ class GuestDataBase(context: Context) : SQLiteOpenHelper(context, NAME, null , V
     }
 
     override fun onCreate(db: SQLiteDatabase) {
-        //Criacao do banco
+        //Criacao do db
         db.execSQL("CREATE TABLE "+ DataBaseConstants.GUEST.TABLE_NAME +" (" +
                 DataBaseConstants.GUEST.COLUMNS.ID + " integer PRIMARY KEY AUTOINCREMENT, " +
                 DataBaseConstants.GUEST.COLUMNS.NAME + " text, " +
